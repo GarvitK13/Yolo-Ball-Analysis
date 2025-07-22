@@ -1,0 +1,12 @@
+# Important Information
+
+YOLO Version used : v8
+
+YOLO Version used for fine-tuning : v8
+
+Roboflow Dataset Version used (663 images one) : v2
+Roboflow Dataset Version used (3330 images one) : v1
+
+DFL Bliga dataset used : 10.83 GB one 
+
+Both datasets have slightly different labes and would need label mapping. The bigger roboflow dataset has additional labels in main ref, side ref, staff members.

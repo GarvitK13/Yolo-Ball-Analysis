@@ -1,0 +1,18 @@
+# Training Details
+
+Training was done on the pre-trained YOLO v8.x model on Google Colaboratory using it's GPU Backend Engine. (VRAM : 15 GB)
+
+Model was trained on the X_123_5Star-1 Dataset which has 3300 images. It has been trained for 100 Epochs.
+
+UPTO EPOCH 35
+The model has consistently reduced its Box Losses, Classification Losses and DFL Losses. Precision, Recall have improved. mAP50 and mAP50-90 have improved alongside the training metrics indicating
+no signs of overfitting.
+
+UPTO EPOCH 70
+Model has been improving for a while now. Reductions in losses and improvements in precision have co-incided
+
+FINAL :
+Model peaked around Epoch 80 although it will not be used. 
+
+Training on the 660 image "football player-detection" dataset has revealed a world of improvement to results. Therefore, it will be the model going forward
+100 Epochs were run and the "best.pt" file was chosen afterwards.
